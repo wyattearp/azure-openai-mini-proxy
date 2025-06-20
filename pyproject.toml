@@ -15,7 +15,7 @@ dependencies = [
     "pyyaml",
     "uvicorn"
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 
 [project.scripts]
 azure-openai-mini-proxy = "azure_openai_mini_proxy.cli:start"
