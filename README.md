@@ -22,7 +22,7 @@ docker compose up --build
 
 ## Configuration
 
-Create a `config.yaml` file in one of these locations:
+Create a `config.yaml` (see the `config.example.yaml`) file in one of these locations:
 - Current directory (`./config.yaml`)
 - Docker container path (`/app/config.yaml`)
 - User config directory (`~/.config/azure-openai-mini-proxy/config.yaml`)
