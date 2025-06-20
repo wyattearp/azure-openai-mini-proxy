@@ -7,7 +7,7 @@ from fastapi import Request
 from starlette.responses import JSONResponse
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(name)s - %(filename)s:%(lineno)d - %(message)s")
 
 def load_config():
     config_paths = [
