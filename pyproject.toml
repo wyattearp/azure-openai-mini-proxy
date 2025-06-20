@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-openai-mini-proxy"
+version = "0.1.0"
+description = "A lightweight FastAPI-based reverse proxy for Azure OpenAI to provide OpenAI-compatible endpoints."
+authors = [
+    { name = "Wyatt Neal", email = "wyatt@hackerforhire.org" }
+]
+dependencies = [
+    "fastapi",
+    "httpx",
+    "pyyaml",
+    "uvicorn"
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+azure-openai-mini-proxy = "azure_openai_mini_proxy.cli:start"

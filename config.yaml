@@ -1,0 +1,18 @@
+routes:
+  chat/completions:
+    endpoint: "https://azopenai-west.openai.azure.com"
+    api_key: "AZURE_KEY_CHAT"
+    api_version: "2024-03-01-preview"
+    deployment: "gpt-4-chat"
+
+  completions:
+    endpoint: "https://azopenai-east.openai.azure.com"
+    api_key: "AZURE_KEY_COMPLETIONS"
+    api_version: "2023-12-01-preview"
+    deployment: "text-davinci-003"
+
+  embeddings:
+    endpoint: "https://azopenai-north.openai.azure.com"
+    api_key: "AZURE_KEY_EMBEDDINGS"
+    api_version: "2024-03-01-preview"
+    deployment: "embedding-ada"

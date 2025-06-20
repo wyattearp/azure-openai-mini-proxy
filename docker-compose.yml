@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  azure-openai-mini-proxy:
+    build: .
+    container_name: azure-openai-mini-proxy
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+    environment:
+      - PYTHONUNBUFFERED=1
