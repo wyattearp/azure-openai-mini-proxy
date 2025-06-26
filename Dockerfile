@@ -3,6 +3,8 @@ FROM python:3.12-slim
 ARG CUSTOM_CERT_DIR="certs"
 
 # Update certificates if custom ones were provided and copied successfully
+COPY ${CUSTOM_CERT_DIR}/ ${CUSTOM_CERT_DIR}/
+
 RUN if [ -n "${CUSTOM_CERT_DIR}" ]; then \
         mkdir -p /usr/local/share/ca-certificates && \
         if [ -d "${CUSTOM_CERT_DIR}" ]; then \

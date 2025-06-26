@@ -201,4 +201,7 @@ marimo/_lsp/
 __marimo__/
 
 # Custom certificates
-certs/
+certs/*.cer
+certs/*.crt
+certs/*.pem
+

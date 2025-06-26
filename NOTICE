@@ -6,7 +6,7 @@ This software exists because:
 - The Go-based proxy has more dependencies than a 2008 PHP monolith.
 - Generating SBOMs and securing software supply chains is currently best described by XKCD 2347: https://xkcd.com/2347/
 
-You are required by the Apache License 2.0 to preserve this file if you redistribute this code.
+You are required by the Apache License 2.0 to preserve this file if you use or redistribute this code.
 Yes, even the snark. Especially the snark.
 
 This NOTICE file must be included with all copies or substantial portions of this software.
